@@ -1,0 +1,144 @@
+/*-------------------------*/
+/* $Catalog 
+---------------------------*/
+/** 
+ * Catalog
+ * Button
+ * Navigation Bar
+ * Jumbotron
+ * Thumbnail
+ * Footer
+**/
+
+/*-------------------------*/
+/* $Button
+---------------------------*/
+.btn{
+    /*structure*/
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    min-width: 64px;
+    border: 0 solid #000;
+    box-sizing: border-box;
+
+    /*style*/
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Helvetica", "Noto Sans TC", "Roboto", "Arial", sans-serif;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #353630;
+    background-color: #d1d2d3;
+    border-radius: 2px;
+    outline: none;
+
+    /*interact*/
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-user-drag: none;
+    transition: background-color 0.3s;
+
+}
+
+.btn--hover,
+.btn:hover{
+    background-color: #cacbcd;
+}
+
+.btn--active,
+.btn:active{
+    background-color: #cacbcd;
+}
+
+.btn--disabled,
+.btn--disabled:hover,
+.btn--disabled:active,
+.btn--disabled:focus {
+    color: #fff;
+    pointer-events: none;
+    background-color: #d1d2d3;
+}
+
+.btn.btn--primary,
+.btn.btn--secondary,
+.btn.btn--positive,
+.btn.btn--negative{
+    color: #fff;
+}
+
+.btn.btn--primary{
+    background-color: #f95c3c;
+}
+.btn.btn--primary.btn--hover,
+.btn.btn--primary:hover{
+    background-color: #dd5033;
+}
+.btn.btn--secondary{
+    background-color: #43484c;
+}
+.btn.btn--secondary.btn--hover,
+.btn.btn--secondary:hover{
+    background-color: #35393d;
+}
+.btn.btn--positive{
+    background-color: #3eb5ac;
+}
+.btn.btn--positive.btn--hover,
+.btn.btn--positive:hover{
+    background-color: #38a59d;
+}
+.btn.btn--negative{
+    background-color: #f84545;
+}
+.btn.btn--negative.btn--hover,
+.btn.btn--negative:hover{
+    background-color: #db3d3d;
+}
+
+/*text*/
+.btn.btn--lg{
+    font-size: 22px;
+    line-height: 56px;
+    height: 56px;
+    font-weight: 400;
+}
+
+.btn.btn--md{
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+}
+.btn.btn--sm{
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+}
+/*-------------------------*/
+/* $Navigation Bar
+---------------------------*/
+
+/*-------------------------*/
+/* $Jumbotron
+---------------------------*/
+
+
+
+/*-------------------------*/
+/* $Thumbnail
+---------------------------*/
+
+
+/*-------------------------*/
+/* $Footer
+---------------------------*/
